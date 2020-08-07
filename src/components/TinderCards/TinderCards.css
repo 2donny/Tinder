@@ -1,0 +1,28 @@
+.card__container {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+
+.card {
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    background-size: cover;   
+    background-position: center;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3)
+}
+
+.card > h3 {
+    position: absolute;
+    bottom: 15px;
+    color: white;
+}
+
+.swipe {
+    position: absolute;
+}
